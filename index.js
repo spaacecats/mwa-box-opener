@@ -21,7 +21,7 @@ module.exports = function mwaBoxOpener(dispatch){
 		}
 	})
 	
-	dispatch.hook('S_INVEN', 3, event =>{
+	dispatch.hook('S_INVEN', 5, event =>{
 		if(!enabled) return
 
 		if(event.first) inventory = []
